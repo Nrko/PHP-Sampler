@@ -1,0 +1,22 @@
+{
+    "name": "mobomatic/assignment",
+    "description": "Mobomatic Assignment",
+    "authors": [
+        {
+            "name": "Sergiu Adrian Ghitea",
+            "email": "sergiu.a.g@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "SamplerChallenge\\": "src/",
+            "Tests\\": "tests/"
+        }
+    }
+
+}
